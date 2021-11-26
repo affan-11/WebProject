@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cuprum&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@500&display=swap');
+
+
+
+
+
+body {
+    background-color: #d9d9d9 ;
+}
+    
+/* body {background-image: url(./images/ps5background.jpg) no-repeat center fixed ;
+background-size: cover;} */
+
+
+#title {
+    color: #ffffff;
+    font-family: 'Play', cursive;
+    padding: 10px;
+    text-align: left;
+    background-color: rgba(194, 10, 105);
+    padding: 10px;
+    border-top: 5px;
+    border-bottom: 5px;
+    border-left: 5px;
+    border-right: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+#section_block1 {
+    
+    color:#000000;
+    background-color: #d9d9d9;
+    font-family: 'Play';
+    text-align: center;
+    padding: 10px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    border-color: black;
+}
+
+#section_block2 {
+    background-color: rgba(197, 208, 232, 0.8);
+    color: black;
+    padding: 10px;
+    border-bottom: 5px;
+    border-top: 5px;
+    border-left: 5px;
+    border-right: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+#navbar {
+    display: flex;
+    background-color: #d9d9d9;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+    border-top: 2px;
+    border-bottom: 2px;
+    border-left: 2px;
+    border-right: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+.flexcontainer {
+    display: flex;
+    flex-direction: row;
+    border: 5px;
+    border-style: solid;
+    border-color: #000000;
+}
+
+
+.container {
+    justify-content: space-evenly;
+
+}
+
+.container1 {
+    background-color: rgb(0, 111, 205);
+    color: white;
+    font-family: 'Cuprum';
+    font-size:x-large;
+    height: 200px;
+    width: 1400px;
+    text-align: center;
+    padding-left: 30px;
+}
+
+.container2 {
+    background-color:rgb(16,124, 16);
+    color: white;
+    font-family: 'Exo';
+    font-size: x-large;
+    height: 200px;
+    width: 1400px;
+    text-align: center;
+    padding-left: 30px;     
+}
+
+.container3 {
+    color: rgb(0, 0, 0);
+    font-family: 'Exo';
+    font-size: x-large;
+    height: 200px;
+    width: 1300px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;     
+}
+
+.container4 {
+    background-image: url(./images/background.png);
+    color: rgb(0, 0, 0);
+    font-family: 'Exo';
+    font-size: x-large;
+    height: 550px;
+    width: 900px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;     
+}
+
+
+.containerfont {
+    font-size: medium    ;
+
+}
+
+.containerheading {
+    font-size: xx-large;
+}
+
+.containerfont2 {
+    text-align: left;
+}
+
+
